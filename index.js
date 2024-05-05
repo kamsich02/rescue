@@ -5,7 +5,7 @@ import { gasPriceToGwei } from "./utils.js";
 import "log-timestamp";
 import "dotenv/config";
 
-const NETWORK_RPC_URL = process.env.BSC_RPC_URL;
+const NETWORK_RPC_URL = process.env.NETWORK_RPC_URL;
 const PRIVATE_KEY_ZERO_GAS = process.env.PRIVATE_KEY_ZERO_GAS || "";
 
 if (PRIVATE_KEY_ZERO_GAS === "") {
