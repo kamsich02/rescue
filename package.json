@@ -1,0 +1,22 @@
+{
+  "name": "burner-bot",
+  "version": "1.0.0",
+  "description": "Crypto Burner Bot is a utility that monitors a wallet address and burns any ETH or BNB sent to it, effectively preventing anyone from paying gas fees and withdrawing funds from the target wallet. The primary purpose is to stop a sweeper bot from emptying a compromised wallet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "log-timestamp": "^0.3.0",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {}
+}
