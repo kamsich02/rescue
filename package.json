@@ -1,7 +1,7 @@
 {
   "name": "burner-bot",
   "version": "1.0.0",
-  "description": "Crypto Burner Bot is a utility that monitors a wallet address and burns any ETH or BNB sent to it, effectively preventing anyone from paying gas fees and withdrawing funds from the target wallet. The primary purpose is to stop a sweeper bot from emptying a compromised wallet.",
+  "description": "Crypto Burner Bot is a utility that monitors a wallet address and sends any ETH or BNB sent to it, effectively preventing anyone from paying gas fees and withdrawing funds from the target wallet. The primary purpose is to stop a sweeper bot from emptying a compromised wallet.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
